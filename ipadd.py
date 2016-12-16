@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # Showing the en0 ip address/mask/MAC in preatty table
+# Add Default Gateway info
 
 from prettytable import PrettyTable
 import commands
