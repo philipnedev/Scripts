@@ -13,7 +13,7 @@ def hex2int(hex):
     for x in range(4):
         duma = '0x' + hex[x * 2:x * 2 + 2]
         result += str(int(duma, 0)) + '.'
-    return result[0:15]
+    return result[0:len(result)-1]
 
 
 output = commands.getstatusoutput('ifconfig en0 | grep netmask')
