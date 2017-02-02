@@ -1,4 +1,5 @@
-Scripts purpouse is to show ipaddress/mask/MAC/DG in pretty tables in the format:
+ipadd.py
+Scripts purpouse is to show ipaddress/mask/MAC/DG in pretty table in the format:
 +-----------+--------------+-----------------+-------------------+-----------------+
 | Interface |  IP Address  |       Mask      |     MAC Adress    | Default Gateway |
 +-----------+--------------+-----------------+-------------------+-----------------+
